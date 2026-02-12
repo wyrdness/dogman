@@ -1,0 +1,801 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/dogman",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "dogman",
+    "name": "Dogman",
+    "aliases": [
+      {
+        "name": "Michigan Dogman",
+        "region": "Michigan, USA",
+        "meaning": "Regional variant name emphasizing Michigan origins"
+      },
+      {
+        "name": "Beast of Bray Road",
+        "region": "Wisconsin, USA",
+        "meaning": "Named for Bray Road in Elkhorn, Wisconsin"
+      },
+      {
+        "name": "Wisconsin Werewolf",
+        "region": "Wisconsin, USA",
+        "meaning": "Alternative name for Beast of Bray Road"
+      },
+      {
+        "name": "Manwolf",
+        "region": "USA (Various)",
+        "meaning": "Generic term for upright canine humanoid"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Canine Humanoid",
+    "tags": [
+      "humanoid",
+      "bipedal",
+      "canine",
+      "werewolf-like",
+      "north-america",
+      "nocturnal",
+      "cryptid"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A bipedal canine creature reported primarily in the Great Lakes region of North America, particularly Michigan and Wisconsin. Described as standing 6-7 feet tall with a wolf or dog-like head, muscular humanoid body, and the ability to walk upright.",
+      "full": "Dogman is a cryptid reportedly seen primarily in the northern United States, particularly Michigan, Wisconsin, Indiana, and Ohio. Described as a bipedal creature standing 6-7 feet tall with a wolf or dog-like head, glowing eyes, and a muscular humanoid body covered in fur, the phenomenon gained widespread attention through the 1987 song 'The Legend' by Steve Cook. While modern reports emerged in the 1930s, Michigan folklore references the creature as early as 1887. The phenomenon is distinct from traditional werewolf lore in that witnesses do not report human transformation. Research by Linda Godfrey, particularly on Wisconsin's Beast of Bray Road, has documented hundreds of encounters across the region."
+    },
+    "etymology": {
+      "origin": "The term 'Dogman' emerged in Michigan folklore, popularized by disc jockey Steve Cook's 1987 song 'The Legend,' which was originally created as an April Fools' joke but inadvertently triggered an avalanche of genuine sighting reports.",
+      "meaning": "Descriptive term combining 'dog' (canine features) and 'man' (bipedal humanoid form)",
+      "first_use": "1887 (in folklore), popularized 1987"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Humanoid",
+      "subtype": "Canine-like",
+      "variant": "North American"
+    },
+    "related_phenomena": [
+      {
+        "id": "werewolves",
+        "name": "Werewolves",
+        "relationship": "similar",
+        "description": "Traditional shapeshifter, but Dogman does not involve human transformation"
+      },
+      {
+        "id": "skinwalkers",
+        "name": "Skinwalkers",
+        "relationship": "related",
+        "description": "Navajo shapeshifting entity, sometimes takes canine form"
+      },
+      {
+        "id": "bigfoot",
+        "name": "Bigfoot",
+        "relationship": "distinct_cryptid",
+        "description": "Both bipedal cryptids, but different morphology and behavior"
+      },
+      {
+        "id": "wendigo",
+        "name": "Wendigo",
+        "relationship": "regional_overlap",
+        "description": "Great Lakes region cryptid/entity, sometimes confused with Dogman"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.8,
+        "max": 2.1,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "weight": {
+        "min": 120,
+        "max": 180,
+        "unit": "kilograms",
+        "confidence": "low"
+      },
+      "coloration": [
+        "brown",
+        "gray",
+        "black",
+        "reddish-brown"
+      ],
+      "features": [
+        {
+          "feature": "Head",
+          "description": "Wolf or large dog-like head with elongated snout",
+          "frequency": "always"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Glowing or reflective eyes, often described as amber, yellow, or red",
+          "frequency": "common"
+        },
+        {
+          "feature": "Body",
+          "description": "Muscular humanoid torso with broad shoulders",
+          "frequency": "always"
+        },
+        {
+          "feature": "Legs",
+          "description": "Digitigrade legs (walks on toes like a dog) or plantigrade (flat-footed)",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Hands/Paws",
+          "description": "Clawed hands capable of grasping, sometimes described as paw-like",
+          "frequency": "common"
+        },
+        {
+          "feature": "Fur",
+          "description": "Covered in coarse fur, typically dark colored",
+          "frequency": "always"
+        },
+        {
+          "feature": "Ears",
+          "description": "Pointed, erect canine ears",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Bipedal humanoid with distinct canine features. Muscular build with wolf-like head, pointed ears, elongated snout with visible teeth. Arms proportionally humanoid but with clawed hands. Locomotion primarily bipedal but capable of quadrupedal movement."
+    },
+    "abilities": [
+      {
+        "ability": "Bipedal locomotion",
+        "description": "Primary method of movement is upright walking/running",
+        "frequency": "always",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Quadrupedal movement",
+        "description": "Can drop to all fours for faster running",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Extreme speed",
+        "description": "Reported to move at exceptional speeds, outpacing vehicles",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Vocalizations",
+        "description": "Howls, growls, and screams; distinct from known canines",
+        "frequency": "common",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Enhanced senses",
+        "description": "Apparent heightened hearing and sense of smell",
+        "frequency": "common",
+        "evidence_level": "speculation"
+      },
+      {
+        "ability": "Night vision",
+        "description": "Primarily nocturnal, suggesting enhanced night vision",
+        "frequency": "common",
+        "evidence_level": "speculation"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "dense forest",
+        "rural areas",
+        "swamps",
+        "areas near water"
+      ],
+      "diet": "Unknown, possibly carnivorous based on dentition",
+      "patterns": [
+        "Often encountered near roads or vehicles",
+        "Territorial behavior suggested",
+        "Appears more confrontational than Bigfoot",
+        "May be attracted to human activity",
+        "Reports cluster around specific time periods"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily concentrated in the Great Lakes region of the United States, with Michigan as the primary hotspot. Secondary concentrations in Wisconsin, Indiana, and Ohio. Reports extend throughout the Midwest and occasionally beyond.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Michigan (primary hotspot)",
+        "Wisconsin",
+        "Indiana",
+        "Ohio",
+        "Illinois",
+        "Minnesota",
+        "Kentucky"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Lower Michigan Peninsula",
+        "location": {
+          "description": "Various locations throughout Lower Michigan",
+          "country": "United States",
+          "region": "Michigan",
+          "coordinates": {
+            "latitude": 44.3148,
+            "longitude": -85.6024
+          }
+        },
+        "sighting_count": 300,
+        "peak_period": "1960s-present",
+        "notes": "Primary hotspot; central to Dogman legend and Steve Cook's song"
+      },
+      {
+        "name": "Bray Road",
+        "location": {
+          "description": "Bray Road near Elkhorn",
+          "country": "United States",
+          "region": "Wisconsin",
+          "coordinates": {
+            "latitude": 42.6722,
+            "longitude": -88.5437
+          }
+        },
+        "sighting_count": 50,
+        "peak_period": "1989-present",
+        "notes": "Beast of Bray Road sightings researched extensively by Linda Godfrey"
+      },
+      {
+        "name": "Paris, Michigan",
+        "location": {
+          "description": "Paris, Mecosta County",
+          "country": "United States",
+          "region": "Michigan",
+          "coordinates": {
+            "latitude": 43.7903,
+            "longitude": -85.5017
+          }
+        },
+        "sighting_count": 20,
+        "peak_period": "1938",
+        "notes": "Site of famous 1938 encounter by Robert Fortney"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1887",
+        "circa": true,
+        "source": "Michigan folklore referenced in 'The Legend' song"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1930s-1940s",
+          "description": "Early modern encounters in Michigan"
+        },
+        {
+          "period": "1960s-1970s",
+          "description": "Increased sightings in Manistee area"
+        },
+        {
+          "period": "1987-present",
+          "description": "Post-'The Legend' song awareness and reporting surge"
+        }
+      ],
+      "seasonal_patterns": "Some researchers claim a 7-year cycle of increased sightings in Michigan (disputed); year ends in 7 (1967, 1977, 1987, 1997, 2007, 2017)"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Michigan folklore dating to the late 1800s. Some Native American traditions reference upright canine beings. Distinct from European werewolf mythology but shares superficial similarities.",
+      "earliest_accounts": "Michigan folklore from 1887, with modern documented encounters beginning in the 1930s.",
+      "folklore_connections": "Connected to werewolf mythology globally, but distinguished by lack of transformation narrative. Shares territory with Wendigo and other Great Lakes cryptids."
+    },
+    "timeline": [
+      {
+        "date": "1887",
+        "event": "Early folklore references",
+        "significance": "Michigan legend mentions Dogman in local folklore",
+        "source": "Oral tradition, referenced in Steve Cook's research"
+      },
+      {
+        "date": "1938",
+        "event": "Paris, Michigan encounter",
+        "significance": "Robert Fortney reports encounter with upright canine creature while hunting",
+        "source": "Witness testimony"
+      },
+      {
+        "date": "1960s",
+        "event": "Manistee sightings",
+        "significance": "Cluster of sightings in Manistee County, Michigan",
+        "source": "Local reports"
+      },
+      {
+        "date": "1987-04-01",
+        "event": "Steve Cook's 'The Legend'",
+        "significance": "Radio DJ creates song about Michigan Dogman; triggers flood of genuine sighting reports",
+        "source": "WTCM-FM radio station"
+      },
+      {
+        "date": "1989",
+        "event": "Beast of Bray Road sightings begin",
+        "significance": "Wisconsin encounters documented by journalist Linda Godfrey",
+        "source": "The Week newspaper, Linda Godfrey investigations"
+      },
+      {
+        "date": "1991",
+        "event": "Linda Godfrey's first article",
+        "significance": "Godfrey publishes article on Beast of Bray Road, beginning systematic research",
+        "source": "The Week newspaper"
+      },
+      {
+        "date": "2005",
+        "event": "Dogman Encounters Radio launched",
+        "significance": "Vic Cundiff begins podcast dedicated to Dogman sightings",
+        "source": "Dogman Encounters Radio"
+      },
+      {
+        "date": "2006",
+        "event": "Linda Godfrey's first book",
+        "significance": "'The Beast of Bray Road' published, bringing wider attention",
+        "source": "Prairie Oak Press"
+      }
+    ],
+    "modern_era": "Modern Dogman research is primarily conducted by independent researchers, with Linda Godfrey as the leading investigator. The phenomenon has gained significant media attention through documentaries, podcasts, and YouTube channels. Unlike Bigfoot, Dogman lacks formal academic research but maintains strong presence in cryptozoology and paranormal communities."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 500,
+      "verified": 0,
+      "disputed": 450,
+      "debunked": 30,
+      "date_range": {
+        "earliest": "1887",
+        "latest": "2026"
+      }
+    },
+    "notable": [
+      {
+        "id": "dogman-sighting-1938-paris",
+        "name": "Paris, Michigan Encounter",
+        "date": {
+          "value": "1938",
+          "precision": "year"
+        },
+        "location": {
+          "description": "Near Paris, Mecosta County",
+          "country": "United States",
+          "region": "Michigan",
+          "locality": "Mecosta County",
+          "coordinates": {
+            "latitude": 43.7903,
+            "longitude": -85.5017,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 1,
+          "types": ["Hunter"],
+          "credibility_factors": ["Experienced outdoorsman", "Detailed description"]
+        },
+        "description": "Robert Fortney, while hunting near Paris, Michigan, reported encountering a bipedal creature with a dog-like head. The creature stood upright, had glowing eyes, and appeared to be watching him. Fortney described feeling extreme fear before the creature turned and ran away into the forest.",
+        "conditions": {
+          "weather": "Unknown",
+          "visibility": "Daylight",
+          "time_of_day": "Afternoon",
+          "duration": "Several minutes"
+        },
+        "evidence": [
+          "Witness testimony",
+          "Reported in Steve Cook's research"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Single witness",
+            "Experienced hunter unlikely to misidentify",
+            "Detailed consistent description",
+            "Account documented decades later"
+          ],
+          "notes": "One of the earliest documented modern Dogman encounters in Michigan."
+        },
+        "sources": [
+          "Cook, S. (1987). The Legend (song and accompanying research)",
+          "Various Michigan folklore collections"
+        ],
+        "featured": true
+      },
+      {
+        "id": "dogman-sighting-1989-brayroad",
+        "name": "Beast of Bray Road Initial Sightings",
+        "date": {
+          "value": "1989",
+          "precision": "year"
+        },
+        "location": {
+          "description": "Bray Road near Elkhorn",
+          "country": "United States",
+          "region": "Wisconsin",
+          "locality": "Walworth County",
+          "coordinates": {
+            "latitude": 42.6722,
+            "longitude": -88.5437,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 3,
+          "types": ["Motorists"],
+          "credibility_factors": ["Multiple independent witnesses", "Consistent descriptions"]
+        },
+        "description": "Multiple witnesses reported encountering a large, wolf-like creature walking on its hind legs along Bray Road. The creature was described as 5-7 feet tall with a wolf-like head, pointed ears, and glowing eyes. Witnesses reported the creature appeared to be feeding on roadkill and showed no fear of vehicles or people.",
+        "conditions": {
+          "weather": "Various",
+          "visibility": "Night",
+          "time_of_day": "Night",
+          "duration": "Brief encounters"
+        },
+        "evidence": [
+          "Multiple independent witness testimonies",
+          "Newspaper reports by Linda Godfrey",
+          "Consistent physical descriptions"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Multiple witnesses across different dates",
+            "Investigated by journalist Linda Godfrey",
+            "Consistent descriptions",
+            "Witnesses were credible individuals"
+          ],
+          "notes": "These sightings launched Linda Godfrey's extensive research into canine cryptids."
+        },
+        "sources": [
+          "Godfrey, L. (2003). The Beast of Bray Road",
+          "The Week newspaper, 1991-1992"
+        ],
+        "featured": true
+      },
+      {
+        "id": "dogman-sighting-1967-manistee",
+        "name": "Manistee National Forest Encounter",
+        "date": {
+          "value": "1967",
+          "precision": "year"
+        },
+        "location": {
+          "description": "Manistee National Forest",
+          "country": "United States",
+          "region": "Michigan",
+          "locality": "Manistee County",
+          "coordinates": {
+            "latitude": 44.2442,
+            "longitude": -85.9937,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 2,
+          "types": ["Campers"],
+          "credibility_factors": ["Two witnesses", "Physical evidence claimed"]
+        },
+        "description": "Two campers reported being awakened by sounds outside their tent. Upon investigation, they claimed to see a large bipedal creature with a dog-like head standing near their campsite. The creature allegedly circled their camp, making unusual vocalizations, before departing. Witnesses reported finding unusual tracks the next morning.",
+        "conditions": {
+          "weather": "Clear",
+          "visibility": "Night/flashlight",
+          "time_of_day": "Night",
+          "duration": "Approximately 20 minutes"
+        },
+        "evidence": [
+          "Witness testimony",
+          "Reported unusual tracks (not preserved)"
+        ],
+        "credibility": {
+          "rating": "low-medium",
+          "factors": [
+            "Two witnesses",
+            "Night conditions limit visibility",
+            "No physical evidence preserved",
+            "Consistent with other reports from same area/year"
+          ],
+          "notes": "Part of cluster of 1967 sightings that contributed to the '7-year cycle' theory."
+        },
+        "sources": [
+          "Steve Cook research files",
+          "Local newspaper reports"
+        ],
+        "featured": false
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "id": "dogman-evidence-tracks",
+        "type": "tracks",
+        "name": "Canine-like bipedal tracks",
+        "date": "Various",
+        "description": "Reports of unusual tracks showing bipedal canine locomotion, larger than typical dog or wolf",
+        "location": "Michigan, Wisconsin, various",
+        "status": "disputed",
+        "analysis": "Most tracks not preserved or analyzed. Difficult to distinguish from known canids.",
+        "source": "Multiple witnesses"
+      },
+      {
+        "id": "dogman-evidence-hair",
+        "type": "hair samples",
+        "name": "Unidentified canine hair",
+        "date": "Various",
+        "description": "Hair samples collected from sighting locations",
+        "status": "disputed",
+        "analysis": "Most samples identified as known canids (dog, wolf, coyote). No confirmed unknown species.",
+        "source": "Various researchers"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "dogman-evidence-gable-film",
+        "type": "film",
+        "name": "Gable Film (disputed)",
+        "date": "1970 (alleged)",
+        "description": "Short 8mm film allegedly showing Dogman attack; widely considered a hoax",
+        "status": "debunked",
+        "analysis": "Film characteristics inconsistent with 1970s technology; likely modern creation",
+        "source": "Anonymous (posted online 2000s)"
+      }
+    ],
+    "video": [
+      {
+        "id": "dogman-evidence-various-videos",
+        "type": "video",
+        "name": "Various YouTube videos",
+        "date": "2000s-present",
+        "description": "Numerous videos claiming to show Dogman",
+        "status": "disputed",
+        "analysis": "Most considered hoaxes or misidentifications; none verified",
+        "source": "Various"
+      }
+    ],
+    "audio": [
+      {
+        "id": "dogman-evidence-howls",
+        "type": "audio recording",
+        "name": "Unusual canine vocalizations",
+        "date": "Various",
+        "description": "Recordings of howls and vocalizations claimed to be Dogman",
+        "status": "disputed",
+        "analysis": "Difficult to distinguish from wolves, coyotes, or dogs",
+        "source": "Various researchers and witnesses"
+      }
+    ],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Shapeshifter/Supernatural Entity",
+        "description": "Theory that Dogman is a supernatural being rather than biological creature, possibly related to skinwalker traditions",
+        "proponents": ["Various paranormal researchers"],
+        "evidence_cited": [
+          "Witnesses reporting sudden appearances/disappearances",
+          "Lack of physical evidence",
+          "Overlap with other paranormal activity"
+        ]
+      },
+      {
+        "name": "Interdimensional Being",
+        "description": "Creature phases between dimensions, explaining elusiveness",
+        "proponents": ["Paranormal researchers"],
+        "evidence_cited": [
+          "Sudden disappearances",
+          "Lack of trackways",
+          "Pattern of brief encounters"
+        ]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Unknown Canid Species",
+        "description": "Dogman represents an undiscovered large canid species capable of bipedal locomotion",
+        "proponents": ["Some cryptozoologists"],
+        "evidence_cited": [
+          "Consistent physical descriptions",
+          "Canid features",
+          "Geographic concentration suggests biological population"
+        ]
+      },
+      {
+        "name": "Dire Wolf Descendant",
+        "description": "Surviving population of extinct dire wolf or related species that evolved bipedalism",
+        "proponents": ["Theoretical cryptozoologists"],
+        "evidence_cited": [
+          "Size consistent with large prehistoric canids",
+          "Great Lakes region had megafauna in past"
+        ]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentified Bears",
+        "description": "Sightings are bears walking upright, seen in poor lighting conditions",
+        "proponents": ["Skeptics", "Wildlife biologists"],
+        "evidence_cited": [
+          "Bears can walk bipedally",
+          "Most sightings at night or dusk",
+          "Bear populations overlap with sighting areas"
+        ]
+      },
+      {
+        "name": "Folklore and Hoax",
+        "description": "Cultural phenomenon started by Steve Cook's song, perpetuated by hoaxes",
+        "proponents": ["Skeptics"],
+        "evidence_cited": [
+          "Sightings increased dramatically after 1987 song",
+          "No physical evidence",
+          "Some known hoaxes (Gable Film)"
+        ]
+      },
+      {
+        "name": "Mass Hysteria",
+        "description": "Psychological phenomenon where suggestion leads to misidentification",
+        "proponents": ["Psychologists", "Skeptics"],
+        "evidence_cited": [
+          "Clustering of reports after media attention",
+          "Witnesses familiar with Dogman legend before sighting",
+          "Similar to other regional monster panics"
+        ]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Michigan Dogman legend dating to 1887",
+        "Wisconsin Beast of Bray Road folklore",
+        "Great Lakes region cryptid traditions"
+      ],
+      "stories": [
+        "Steve Cook's 'The Legend' song (1987)",
+        "Various witness accounts compiled by Linda Godfrey",
+        "Local campfire stories and urban legends"
+      ],
+      "beliefs": "Modern phenomenon with strong regional folklore component. Some believers view as biological cryptid, others as paranormal entity. Michigan residents often aware of legend even if skeptical."
+    },
+    "indigenous": {
+      "cultures": [
+        "Various Great Lakes tribes"
+      ],
+      "significance": "Some Native American traditions reference upright canine beings or dog-headed creatures. Skinwalker traditions from Navajo culture sometimes associated, though geographically distinct.",
+      "sensitivity_note": "Limited documented Indigenous traditions specific to Dogman. Researcher should distinguish between appropriated folklore and genuine traditional knowledge.",
+      "respect_guidelines": "Do not conflate Dogman with skinwalker traditions. Respect that some Indigenous beliefs about shapeshifters are sacred and not for casual discussion."
+    },
+    "popular_culture": {
+      "literature": [
+        "Godfrey, L. (2003). The Beast of Bray Road: Tailing Wisconsin's Werewolf",
+        "Godfrey, L. (2006). Hunting the American Werewolf",
+        "Godfrey, L. (2015). Real Wolfmen: True Encounters in Modern America"
+      ],
+      "film_tv": [
+        "MonsterQuest: 'American Werewolf' episode (2007)",
+        "Monsters and Mysteries in America: Dogman episodes",
+        "Small Town Monsters documentaries",
+        "The Dogman Triangle (2020)"
+      ],
+      "audio": [
+        "Steve Cook - 'The Legend' (1987 song)",
+        "Dogman Encounters Radio (podcast, 2005-present)"
+      ],
+      "other": [
+        "Michigan Dogman merchandise and tourism",
+        "Annual conferences and events",
+        "YouTube channels dedicated to encounters"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Linda Godfrey",
+        "affiliation": "Independent researcher/journalist",
+        "contribution": "Primary researcher and author; investigated Beast of Bray Road and canine cryptids nationwide",
+        "period": "1991-present"
+      },
+      {
+        "name": "Steve Cook",
+        "affiliation": "Radio DJ/Independent researcher",
+        "contribution": "Created 'The Legend' song; documented Michigan folklore and witness reports",
+        "period": "1987-present"
+      },
+      {
+        "name": "Vic Cundiff",
+        "affiliation": "Dogman Encounters Radio",
+        "contribution": "Podcast host collecting and sharing witness testimonies",
+        "period": "2005-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Dogman Encounters Radio",
+        "url": "https://www.dogmanencountersradio.com",
+        "focus": "Witness testimony collection and sharing"
+      },
+      {
+        "name": "Small Town Monsters",
+        "url": "https://www.smalltownmonsters.com",
+        "focus": "Documentary investigation of regional cryptids including Dogman"
+      }
+    ],
+    "ongoing_studies": "Research primarily conducted by independent investigators. Linda Godfrey continues to collect and analyze reports. Trail camera efforts in Michigan and Wisconsin ongoing but no confirmed evidence."
+  },
+
+  "seven_year_cycle": {
+    "description": "Disputed theory that Dogman sightings peak in Michigan during years ending in 7",
+    "claimed_years": [1967, 1977, 1987, 1997, 2007, 2017],
+    "origin": "Popularized by Steve Cook's song 'The Legend'",
+    "status": "Disputed",
+    "analysis": "No statistical evidence supports cyclical pattern. Reporting may increase in these years due to media attention and expectation bias. Many significant sightings occurred in non-cycle years."
+  },
+
+  "sources": [
+    {
+      "id": "godfrey-2003",
+      "type": "book",
+      "title": "The Beast of Bray Road: Tailing Wisconsin's Werewolf",
+      "authors": ["Linda Godfrey"],
+      "publication": "Prairie Oak Press",
+      "date": "2003",
+      "isbn": "978-1879483537"
+    },
+    {
+      "id": "godfrey-2006",
+      "type": "book",
+      "title": "Hunting the American Werewolf",
+      "authors": ["Linda Godfrey"],
+      "publication": "Trails Books",
+      "date": "2006",
+      "isbn": "978-1931599658"
+    },
+    {
+      "id": "cook-1987",
+      "type": "song",
+      "title": "The Legend",
+      "authors": ["Steve Cook"],
+      "publication": "WTCM-FM",
+      "date": "1987-04-01"
+    },
+    {
+      "id": "dogman-encounters",
+      "type": "website",
+      "title": "Dogman Encounters Radio",
+      "url": "https://www.dogmanencountersradio.com",
+      "accessed": "2026-01-14"
+    }
+  ]
+}

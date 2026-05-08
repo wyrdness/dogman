@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/dogman",
     "maintainers": [
       {
@@ -18,109 +18,275 @@
   },
   "phenomenon": {
     "id": "dogman",
-    "name": "Dogman",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "| Description | Status |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Michigan Dogman",
+    "aliases": [
+      { "name": "Dogman", "region": "Great Lakes, USA" },
+      { "name": "Wexford County Dogman", "region": "Northern Michigan" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Bipedal canine humanoid",
+    "tags": [
+      "cryptid",
+      "humanoid",
+      "canine",
+      "bipedal",
+      "great-lakes",
+      "michigan",
+      "north-america"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Dogman is a cryptid reportedly seen primarily in the Great Lakes region of North America, particularly Michigan and Wisconsin.",
-      "full": "Dogman is a cryptid reportedly seen primarily in the Great Lakes region of North America, particularly Michigan and Wisconsin. Described as a bipedal creature standing 6-7 feet tall with a wolf or dog-like head, glowing eyes, and a muscular humanoid body covered in fur, the phenomenon gained widespread attention through the 1987 song \\\"The Legend\\\" by disc jockey Steve Cook. While modern reports emerged in the 1930s, Michigan folklore references the creature as early as 1887. The phenomenon is distinct from traditional werewolf lore in that witnesses do not report human transformation. Research by Linda Godfrey, particularly on Wisconsin's Beast of Bray Road, has documented hundreds of encounters across the region. Dogman represents one of North America's most intriguing canine cryptids, with over 500 documented sightings concentrated primarily in Michigan and Wisconsin, extensive research by journalist Linda Godfrey, and a rich cultural presence in Great Lakes folklore."
+      "summary": "A bipedal, dog-headed humanoid cryptid reported primarily in the northwestern Lower Peninsula of Michigan, popularized by a 1987 radio prank song by disc jockey Steve Cook of WTCM-FM in Traverse City.",
+      "full": "The Michigan Dogman is a cryptid said to inhabit the forests of the northwestern Lower Peninsula of Michigan, particularly around Wexford, Manistee, and Cross Village. Witnesses describe a roughly seven-foot-tall bipedal creature with a man-like torso, fur, and the head of a dog or wolf, with blue or amber eyes and a vocalization sometimes likened to a human scream. The phenomenon entered popular awareness through 'The Legend', a song that disc jockey Steve Cook recorded as an April Fools' Day prank for WTCM-FM (Traverse City) in 1987. Cook has consistently described the song as fiction; nevertheless it generated more than a hundred reports from listeners and helped seed a regional folklore that was subsequently reinforced by media including MonsterQuest (2010) and the local feature film Dogman (2011). Investigative work by author Linda S. Godfrey, originally focused on Wisconsin's Beast of Bray Road, has since extended to Michigan and the wider Great Lakes region. Mainstream zoology does not recognize the Dogman; reports are typically attributed to misidentification, hoaxes, or the cultural transmission set in motion by Cook's song."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Modern English compound 'Dog-man'",
+      "meaning": "Bipedal humanoid with a dog or wolf-like head",
+      "first_use": "1987 (Steve Cook's song 'The Legend', WTCM-FM)"
     }
   },
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Humanoid",
+      "subtype": "Canine humanoid",
+      "variant": "Great Lakes / Michigan"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "beast-of-bray-road", "name": "Beast of Bray Road", "relationship": "similar", "description": "Wisconsin bipedal canine cryptid investigated by Linda Godfrey" },
+      { "id": "werewolves", "name": "Werewolves", "relationship": "similar", "description": "European tradition of human-wolf shapeshifters" },
+      { "id": "loup-garou", "name": "Loup-garou", "relationship": "similar", "description": "French and Cajun werewolf tradition" },
+      { "id": "wendigo", "name": "Wendigo", "relationship": "related", "description": "Northern Algonquian forest entity sometimes conflated with Great Lakes cryptid reports" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.8, "max": 2.3, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark brown", "black", "grey"],
+      "features": [
+        { "feature": "Canine head", "description": "Wolf- or dog-like head set on a humanoid body", "frequency": "always" },
+        { "feature": "Bipedal locomotion", "description": "Walks upright on hind legs", "frequency": "always" },
+        { "feature": "Glowing eyes", "description": "Witnesses report blue or amber eyes, sometimes described as glowing", "frequency": "common" },
+        { "feature": "Human-like scream", "description": "Howl said to resemble a human cry", "frequency": "occasional" }
+      ],
+      "morphology": "Reports describe a roughly seven-foot bipedal creature with a humanoid (man-like) torso and a canine head."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Vocalization", "description": "Howls and screams reported during nocturnal encounters", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Bipedal pursuit", "description": "Said to run upright over short distances", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["mixed northern hardwood forest", "river corridors", "rural farmland edges"],
+      "diet": "Unknown; reports do not document feeding behavior",
+      "patterns": [
+        "Reports cluster in northwestern Lower Michigan, particularly Wexford, Manistee, and Cross Village areas",
+        "Folklore claims a ten-year cycle linked to years ending in seven",
+        "Encounters most often reported at night near forest edges and rural roads"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports cluster in the northwestern Lower Peninsula of Michigan, particularly around the Manistee River and historically Odawa lands; occasional reports extend into other Great Lakes states.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Michigan",
+        "Northern Lower Peninsula",
+        "Manistee River basin",
+        "Great Lakes region"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Wexford County",
+        "location": {
+          "description": "Wexford County, northwestern Lower Peninsula of Michigan",
+          "country": "United States",
+          "region": "Michigan"
+        },
+        "peak_period": "1887; 1987–present",
+        "notes": "Site of the often-cited 1887 lumberjack encounter and the focal area of the post-1987 phenomenon"
+      },
+      {
+        "name": "Manistee and Cross Village",
+        "location": {
+          "description": "Manistee and Cross Village areas, northwestern Michigan",
+          "country": "United States",
+          "region": "Michigan"
+        },
+        "peak_period": "1967",
+        "notes": "Cluster of late-1960s sightings reported in regional press"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1887",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Often-repeated account of two lumberjacks in Wexford County, Michigan"
+      },
+      "peak_activity_periods": [
+        { "period": "1987–present", "description": "Resurgence following Steve Cook's 'The Legend' on WTCM-FM" }
+      ],
+      "seasonal_patterns": "No documented seasonal pattern; reports occur year-round."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Modern Michigan folklore amplified by late-20th-century radio media; situated within a broader Great Lakes context that includes Indigenous Anishinaabe stories of forest beings, though those traditions are distinct from the modern Dogman framing.",
+      "earliest_accounts": "An 1887 account of two lumberjacks encountering a 'creature with a man's body and dog's head' in Wexford County is the most-cited early report.",
+      "folklore_connections": "Sits alongside the Wisconsin Beast of Bray Road as a Great Lakes bipedal canine cryptid; broader thematic links to werewolf and loup-garou traditions."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1887", "event": "Two lumberjacks in Wexford County, Michigan, reportedly encounter a creature with a man's body and dog-like head", "significance": "Most-cited early report", "source": "Folkloric, repeated in later media coverage" },
+      { "date": "1937", "event": "Robert Fortney, near Paris, Michigan, reports being attacked by five wild dogs, one walking upright", "significance": "Often cited in mid-20th-century retellings", "source": "Folkloric, repeated in later media coverage" },
+      { "date": "1987-04-01", "event": "Disc jockey Steve Cook of WTCM-FM (Traverse City, Michigan) airs 'The Legend' as an April Fools' Day prank", "significance": "Foundational moment of the modern phenomenon", "source": "WTCM-FM / Steve Cook public statements" },
+      { "date": "1997", "event": "Cook re-records 'The Legend' following further regional interest", "significance": "Sustained the phenomenon into the late 1990s", "source": "Steve Cook public statements" },
+      { "date": "2007", "event": "Cook releases another version of 'The Legend' with mandolin backing", "significance": "Reinforced the ten-years-ending-in-seven folklore", "source": "Steve Cook public statements" },
+      { "date": "2010-03", "event": "MonsterQuest airs an episode investigating the Michigan Dogman", "significance": "Brought wider national attention", "source": "MonsterQuest, History Channel" },
+      { "date": "2011", "event": "The independent feature film Dogman, starring Larry Joe Campbell, premieres at the State Theater in Traverse City", "significance": "Embedded the cryptid in regional pop culture", "source": "Public premiere coverage" },
+      { "date": "2014-01", "event": "Monsters and Mysteries in America airs 'Great Lakes: Wolfman, Dogman, Wendigo'", "significance": "Continued media attention into the 2010s", "source": "Destination America" }
+    ],
+    "modern_era": "The contemporary phenomenon is sustained by regional media, podcasting, and books from authors including Linda Godfrey. Cook himself has repeatedly described 'The Legend' as fiction while documenting reports forwarded to him by listeners over the decades."
   },
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1887", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "dogman-sighting-1887-wexford",
+        "name": "Wexford County lumberjack encounter",
+        "date": { "value": "1887-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Forest in Wexford County, northwestern Lower Peninsula of Michigan",
+          "country": "United States",
+          "region": "Michigan",
+          "locality": "Wexford County"
+        },
+        "witnesses": { "count": 2, "types": ["Lumberjacks (names not preserved)"], "credibility_factors": ["Repeated in regional media but no contemporary primary source available"] },
+        "description": "Two lumberjacks were said to have encountered a creature with a man's body and the head of a dog in the Wexford County woods. The account is the most-cited 'first' Michigan Dogman incident, though no contemporary primary documentation is on record.",
+        "credibility": { "rating": "low", "factors": ["No contemporary primary source", "Detail standardized by later retellings"], "notes": "Foundational folklore item; treat as oral tradition rather than verified case." },
+        "sources": ["Steve Cook / WTCM-FM background materials on 'The Legend'"],
+        "featured": true
+      },
+      {
+        "id": "dogman-sighting-1987-the-legend",
+        "name": "Steve Cook 'The Legend' broadcast",
+        "date": { "value": "1987-04-01", "precision": "exact" },
+        "location": {
+          "description": "WTCM-FM studios, Traverse City, Michigan",
+          "country": "United States",
+          "region": "Michigan",
+          "locality": "Traverse City"
+        },
+        "witnesses": { "count": 0, "types": ["Radio audience"], "credibility_factors": ["Documented broadcast event"] },
+        "description": "Disc jockey Steve Cook aired 'The Legend', a song he wrote as an April Fools' Day prank that wove together fragmentary regional anecdotes into a pseudo-folkloric narrative. Cook has stated the song was made up 'completely from my own imagination as an April Fools' prank'. The song became WTCM-FM's most-requested track and seeded the modern Dogman phenomenon.",
+        "credibility": { "rating": "high", "factors": ["Verifiable broadcast event", "Cook's public statements"], "notes": "Important not as a sighting but as the cultural origin point of the modern phenomenon." },
+        "sources": ["Steve Cook public statements", "WTCM-FM broadcast history"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
-    "audio": [],
-    "trace": []
+    "audio": [
+      {
+        "id": "dogman-evidence-the-legend",
+        "type": "audio recording",
+        "name": "'The Legend' (Steve Cook, 1987; re-recorded 1997, 2007)",
+        "date": "1987",
+        "description": "Spoken-and-sung folkloric ballad recorded by disc jockey Steve Cook for WTCM-FM as an April Fools' prank, framing the Dogman as a creature appearing on a ten-year cycle.",
+        "status": "verified",
+        "analysis": "Verified as a fictional April Fools' broadcast by its author; treated as the cultural seed of the modern Dogman phenomenon rather than as evidence for the creature.",
+        "source": "WTCM-FM / Steve Cook"
+      }
+    ],
+    "trace": [],
+    "documentary": []
   },
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Cyclical paranormal entity",
+        "description": "Folkloric framing in 'The Legend' that the creature returns on a ten-year cycle in years ending in seven; treated by some enthusiasts as a literal supernatural pattern.",
+        "proponents": ["Folkloric tradition popularized by Steve Cook's song"],
+        "evidence_cited": ["Anecdotal reports clustered around years ending in 7"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Undescribed canine cryptid",
+        "description": "Speculative framing that reports represent an unrecognized large canine, sometimes proposed in cryptozoological literature alongside the Beast of Bray Road.",
+        "proponents": ["Linda S. Godfrey"],
+        "evidence_cited": ["Witness consistency in canine-headed bipedal description across the Great Lakes"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural artifact of the 1987 radio song",
+        "description": "Most reports postdate Steve Cook's 1987 prank song and reflect cultural transmission rather than encounters with a real animal.",
+        "proponents": ["Steve Cook (re: origin of his song)", "Folklorists studying contemporary legend"],
+        "evidence_cited": ["Cook's own statements that the song is fiction", "Spike in reports following 1987 broadcast"]
+      },
+      {
+        "name": "Misidentification of known animals",
+        "description": "Reports may stem from misidentified bears standing on hind legs, large dogs, coyotes, or wolves, particularly at night.",
+        "proponents": ["Skeptical writers on Great Lakes cryptids"],
+        "evidence_cited": ["Known black bear behavior of brief bipedal posture", "Range overlap with wolves and coyotes in northern Michigan"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Modern Great Lakes cryptid folklore",
+        "April Fools' / radio prank tradition"
+      ],
+      "stories": [
+        "The Legend (Steve Cook, 1987)"
+      ],
+      "beliefs": "Dogman folklore in Michigan is largely a late-20th-century invention amplified by regional radio and tourism, distinct from older Indigenous traditions about forest beings."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Books by Linda S. Godfrey treating Great Lakes bipedal canine cryptids"
+      ],
+      "film_tv": [
+        "MonsterQuest (History Channel, 2010 episode on the Michigan Dogman)",
+        "Monsters and Mysteries in America, 'Great Lakes: Wolfman, Dogman, Wendigo' (Destination America, January 2014)",
+        "Dogman (2011 independent feature film, premiered at State Theater, Traverse City)"
+      ],
       "games": [],
-      "other": []
+      "music": [
+        "'The Legend' — Steve Cook (1987; re-recorded 1997 and 2007)"
+      ],
+      "other": [
+        "Northern Michigan tourism and merchandise tied to the Dogman legend"
+      ]
     }
   },
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Steve Cook", "affiliation": "WTCM-FM (Traverse City)", "contribution": "Author of 'The Legend' (1987); informal collector of Dogman reports forwarded by listeners", "period": "1987–present" },
+      { "name": "Linda S. Godfrey", "affiliation": "Independent journalist and author", "contribution": "Field investigation and books on Great Lakes bipedal canine cryptids, including the Beast of Bray Road and Michigan Dogman accounts", "period": "1990s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No ongoing peer-reviewed scientific study; investigation is largely journalistic and folkloric."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-michigan-dogman", "type": "website", "title": "Michigan Dogman", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Michigan_Dogman", "accessed": "2026-05-07" },
+    { "id": "godfrey-bray-road", "type": "book", "title": "The Beast of Bray Road: Tailing Wisconsin's Werewolf", "authors": ["Linda S. Godfrey"], "publication": "Prairie Oak Press", "date": "2003" },
+    { "id": "monsterquest-2010", "type": "documentary", "title": "MonsterQuest: America's Wolfman", "publication": "History Channel", "date": "2010" }
+  ]
 }
